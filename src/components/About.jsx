@@ -2,7 +2,6 @@ import InstagramIcon from '@mui/icons-material/Instagram'
 import YouTubeIcon from '@mui/icons-material/Youtube'
 import WhatsAppIcon from '@mui/icons-material/Whatsapp'
 import Image from "next/image";
-import Link from "next/link";
 
 
 export default function About(){
@@ -13,9 +12,9 @@ export default function About(){
       <h2 className="text-2xl pb-4">&quot;Llevar tu musica un nivel mas arriba con videoclips de calidad&quot;</h2>
       <div className="flex justify-end items-center gap-x-8 pb-8">
         <p className='text-xl font-bold'>Redes:</p>
-        <Link className="underline" href={'/'}><WhatsAppIcon /></Link>
-        <Link className="underline" href={'/'}><InstagramIcon /></Link>
-        <Link className="underline" href={'/'}><YouTubeIcon /></Link>
+        <a className="underline" href={'/'}><WhatsAppIcon /></a>
+        <a className="underline" href={'https://www.instagram.com/dav1dbasile/'}><InstagramIcon /></a>
+        <a className="underline" href={'https://www.youtube.com/@davidbasile7941'}><YouTubeIcon /></a>
       </div>
       <div className='flex gap-x-8 pb-8'>
         <div className="overflow-hidden rounded-sm">

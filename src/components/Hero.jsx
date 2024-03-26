@@ -15,7 +15,7 @@ export default function Hero(){
       </div>
       <div className="flex items-center justify-between pb-8">
         <h2 className="text-2xl">&quot;Llevar tu musica un nivel mas arriba con videoclips de calidad&quot;</h2>
-        <Link className="min-w-max ml-4 hover:font-bold hover:mx-6 hover:px-0 transition-all hover:border-b" href={'/#about'}>Acerca de mí↴</Link>
+        <Link className="text-end min-w-max pl-4 hover:font-bold hover:px-6 transition-all hover:border-b" href={'/#about'}>Acerca de mí↴</Link>
       </div>
       <div className="flex items-center max-h-[700px] overflow-hidden rounded-sm">
         <Image src={"https://ipfs.filebase.io/ipfs/QmNowW3ud7qkJA3UPAsGBDmDYyTuacZeFTXzUwK6ck9nX3/QmPEqfitYVsK1aAPQqYAjhQp1ouAJRxZqDrmhPYR755Hvq"} width={1440} height={1440} alt={'hero image'}></Image>
