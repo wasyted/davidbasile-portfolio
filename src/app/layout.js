@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import { Inter, Noto_Sans_Mono, Roboto_Flex } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 const mainFont = Inter({ subsets: ["latin"] });
