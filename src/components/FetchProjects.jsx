@@ -2,7 +2,7 @@ import ViewProject from "./ViewProject";
 import ProjectCard from "./ProjectCard";
 
 async function getData() {
-  const res = await fetch('/projects.json', { cache: 'no-store' })
+  const res = await fetch('https://raw.githubusercontent.com/wasyted/davidbasile-portfolio/main/projects.json', { cache: 'no-store' })
 
   if (!res.ok) {
     throw new Error('Failed to fetch data')
