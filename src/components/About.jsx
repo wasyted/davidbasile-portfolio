@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About(){
   return(
     <section id={'about'} className="p-8 max-w-6xl w-full mx-auto">
-      <h1 className="flex-1 text-6xl font-bold pb-8">Sobre mí.</h1>
+      <h1 className="flex-1 text-3xl sm:text-6xl font-bold pb-8">Sobre mí.</h1>
       <p className="flex-1 pb-6 max-w-prose opacity-75">Parte del mundo audiovisual hace más de 8 años. Fuí asistente, camarografo, editor, productor y actualmente Director Audiovisual. Mí objetivo es lograr un ambiente comodo, contar una historia de calidad en cada video adaptandose a la esencia de cada artista. .</p>
       <h2 className="text-2xl pb-4">&quot;Llevar tu musica un nivel mas arriba con videoclips de calidad&quot;</h2>
       <div className="flex justify-end items-center gap-x-8 pb-8">

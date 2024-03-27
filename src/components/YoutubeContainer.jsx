@@ -19,7 +19,7 @@ export default function YoutubeContainer() {
         </button>
         <button 
           onClick={()=>{setSelectedVideo("https://www.youtube.com/embed/ht45htB5qDQ?si=1IkQhwI0ivQHwfvB")}} 
-          className={`flex-1 ${selectedVideo === "https://www.youtube.com/embed/ht45htB5qDQ?si=1IkQhwI0ivQHwfvB" ? "text-2xl md:text-6xl" : "text-md md:text-2xl opacity-75"} font-bold max-w-max`}>
+          className={`flex-1 ${selectedVideo === "https://www.youtube.com/embed/ht45htB5qDQ?si=1IkQhwI0ivQHwfvB" ? "text-xl md:text-4xl" : "text-md md:text-xl opacity-75"} font-bold max-w-max`}>
           Soñé que volaba
         </button>
       </div>

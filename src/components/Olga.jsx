@@ -5,7 +5,7 @@ export default function Olga() {
   return (
     <section className="p-8 max-w-6xl w-full mx-auto bg-black text-white">
       <div className="flex items-center justify-between pb-4">
-        <Link href={'/trabajos/olga'} className="flex-1 text-6xl font-bold max-w-max">
+        <Link href={'/trabajos/olga'} className="flex-1 text-3xl sm:text-6xl font-bold max-w-max">
           OLGA.
         </Link>
         <Link href={'/trabajos/olga'} className="text-end min-w-max pl-4 hover:font-bold hover:px-6 transition-all hover:border-b">Rodaje y backstage ▶</Link>

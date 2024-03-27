@@ -2,7 +2,7 @@ export default function Contact(){
   return(
     <section className="p-8 w-full">
     <div className="flex-wrap items-center justify-between pb-8">
-      <h1 className="text-center self-start sm:self-center text-6xl font-bold pb-8">
+      <h1 className="text-center self-start sm:self-center text-3xl sm:text-6xl font-bold pb-8">
         Contame de tu proyecto.
       </h1>
       <form className="p-8 rounded-lg flex justify-center items-start w-full gap-x-8 flex-wrap max-w-3xl mx-auto flex-wrap">

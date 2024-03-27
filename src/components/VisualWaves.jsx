@@ -1,11 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function VisualWaves(){
   return(
     <section className="max-w-6xl w-full mx-auto pb-8">
       <div className="flex flex-col gap-y-2 items-center justify-between">
-        <h1 className="text-4xl sm:text-6xl font-bold text-start sm:text-center p-4 sm:p-8">
+        <h1 className="text-3xl sm:text-6xl font-bold text-start sm:text-center p-4 sm:p-8">
           ENCONTRAR, AYUDAR Y POTENCIAR.
         </h1>
         <div className="p-8 text-justify dark:text-neutral-200">

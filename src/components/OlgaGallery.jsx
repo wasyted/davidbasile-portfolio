@@ -5,7 +5,7 @@ export default function OlgaGallery() {
   return (
     <section className="p-8 max-w-6xl w-full mx-auto bg-black text-white">
       <div className="flex items-start justify-between pb-8 xl:flex-row flex-col">
-        <h1 className="flex-1 text-6xl font-bold max-w-max">
+        <h1 className="flex-1 text-3xl sm:text-6xl font-bold max-w-max">
           OLGA.
         </h1>
         <p className="max-w-prose text-sm pt-4 xl:pt-0">
@@ -17,7 +17,7 @@ export default function OlgaGallery() {
       </div>
       <YoutubeContainer />
       <div className="flex items-start text-center justify-between pt-8 pb-8">
-        <h1 className="flex-1 text-6xl font-bold max-w-max">
+        <h1 className="flex-1 text-3xl sm:text-6xl font-bold max-w-max">
           Backstage.
         </h1>
       </div>
