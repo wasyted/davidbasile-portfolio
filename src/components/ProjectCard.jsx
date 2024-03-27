@@ -23,7 +23,7 @@ export default function ProjectCard({coverImage, name, link, artist}){
   return(
     <div className="flex flex-col justify-center h-full w-full items-center object-cover p-2 rounded-md bg-black">
       <p className="text-start mb-3">{name}<span className="opacity-75"> - {artist}</span></p>
-      <div  className="flex items-center justify-center bg-white overflow-hidden rounded-md hover:rounded-none grayscale hover:grayscale-0 transition-all sm:grayscale-0 h-full w-full">
+      <div  className="flex items-center justify-center bg-white overflow-hidden rounded-lg hover:rounded-none transition-all h-full w-full">
         <Link href={`?project=${encodeURIComponent(link)}`}>
           <Image
             placeholder={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`} 
