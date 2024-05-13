@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import { Inter } from "next/font/google";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 const mainFont = Inter({ subsets: ["latin"] });
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={`${mainFont.className} text-sm dark:bg-black dark:text-neutral-100`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
